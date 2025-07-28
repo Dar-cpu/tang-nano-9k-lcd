@@ -1,0 +1,33 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/cruza/Documents/FPGA/final1/src/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/cruza/Documents/FPGA/final1/src/gowin_sp/gowin_sp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/cruza/Documents/FPGA/final1/src/lcd.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/cruza/Documents/FPGA/final1/src/lcd_clock_tmp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/cruza/Documents/FPGA/final1/src/main.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/cruza/Documents/FPGA/final1/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

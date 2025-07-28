@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="TOP" T_Register="51(0)" T_Lut="392(0)" T_MULT18X18="2(0)" T_MULTADDALU18X18="1(0)" T_Bsram="26(0)">
+ <SubModule name="chip_pll"/>
+ <SubModule name="VGAMod_inst" Register="47" Lut="270" MULT18X18="2" MULTADDALU18X18="1" T_Register="51(47)" T_Lut="392(270)" T_MULT18X18="2(2)" T_MULTADDALU18X18="1(1)" T_Bsram="26(0)">
+  <SubModule name="SDRAMInstance" Register="4" Lut="122" Bsram="26" T_Register="4(4)" T_Lut="122(122)" T_Bsram="26(26)"/>
+ </SubModule>
+</Module>

@@ -1,0 +1,56 @@
+[
+ {
+  "InstFile" : "C:/Users/cruza/Documents/FPGA/final1/src/lcd_clock_tmp.v",
+  "InstLine" : 6,
+  "InstName" : "lcd_clock_tmp",
+  "ModuleFile" : "C:/Users/cruza/Documents/FPGA/final1/src/lcd_clock_tmp.v",
+  "ModuleLine" : 6,
+  "ModuleName" : "lcd_clock_tmp",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/cruza/Documents/FPGA/final1/src/lcd_clock_tmp.v",
+    "InstLine" : 12,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "C:/Users/cruza/Documents/FPGA/final1/src/gowin_rpll.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "Gowin_rPLL"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/cruza/Documents/FPGA/final1/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "TOP",
+  "ModuleFile" : "C:/Users/cruza/Documents/FPGA/final1/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "TOP",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/cruza/Documents/FPGA/final1/src/main.v",
+    "InstLine" : 20,
+    "InstName" : "chip_pll",
+    "ModuleFile" : "C:/Users/cruza/Documents/FPGA/final1/src/gowin_rpll.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/cruza/Documents/FPGA/final1/src/main.v",
+    "InstLine" : 26,
+    "InstName" : "VGAMod_inst",
+    "ModuleFile" : "C:/Users/cruza/Documents/FPGA/final1/src/lcd.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "VGAMod",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/cruza/Documents/FPGA/final1/src/lcd.v",
+      "InstLine" : 106,
+      "InstName" : "SDRAMInstance",
+      "ModuleFile" : "C:/Users/cruza/Documents/FPGA/final1/src/gowin_sp/gowin_sp.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_SP"
+     }
+    ]
+   }
+  ]
+ }
+]
